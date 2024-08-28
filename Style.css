@@ -20,3 +20,104 @@ header{
     border-radius: 50%;
     box-shadow: 0 4px 8px blue;
 }
+
+/* NAVIGATION */
+.nav{
+    background-color: coral;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    height: 85px;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: rgb(92, 197, 40);
+
+    border: none;
+}
+
+.cv{
+    text-decoration: none;
+    margin: 20px;
+    color: #ffff;
+    
+}
+
+.button:hover{
+    border-radius: 5px;
+    background-color: green;
+  
+}
+
+.cv:hover{
+    color: black;
+}
+
+.bio{
+    padding: 20px 20px;
+    background-color: #b26262;
+    margin: 20px;
+}
+
+.bio h2{
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+    color: #ffff;
+}
+
+.bio p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #080808;
+    text-indent: 20px;
+}
+
+.Hobbies{
+    background-color: darkorange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form{
+    display: grid;
+    margin: 100px;
+    gap: 10px;
+    background-color: rgb(143, 162, 162);
+    padding: 40px;
+}
+
+.Contact h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100px;
+}
+
+.form button:hover{
+    cursor: pointer;
+    background-color: #080808;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+}
